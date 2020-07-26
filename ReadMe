@@ -49,3 +49,7 @@ Create a branch using
 Step 14: Switch into branch 
 
 >>> git checkout login
+
+Step 15: Switch back to master
+
+>>> git checkout master
