@@ -10,5 +10,21 @@ Step 5: git add index.html
 
 Step 6: git status
 
+To remove file from staging area:
 git rm --cached index.html
 
+Make Changes to files and then again git status
+You get modified for file you made changes to 
+
+To add modified file in staging area do step 8
+
+Step 8: git add . 
+
+Step 9: git commit
+It will open vim terminal or maybe normal file
+ Remove # from initial commit in file
+ Ctrl + X and y
+
+ Step 10: modify the file and then do
+
+ git commit -m 'changed app.js'
