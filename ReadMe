@@ -1,0 +1,14 @@
+Step 1: git init
+
+Step 2: git config --global user.name 'Aman Sharma'
+
+Step 3: git config --global user.email 'aman.sharma9645@gmail.com'
+
+Step 4: touch index.html
+
+Step 5: git add index.html
+
+Step 6: git status
+
+git rm --cached index.html
+
