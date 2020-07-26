@@ -28,3 +28,13 @@ It will open vim terminal or maybe normal file
  Step 10: modify the file and then do
 
  git commit -m 'changed app.js'
+
+
+Step 11: Use gitignore 
+        >>> touch .gitignore
+
+Step 12: Add files to gitignore that you don't want to be added
+
+log.txt
+/dir2 (for directories use /)
+
