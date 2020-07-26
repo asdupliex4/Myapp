@@ -38,3 +38,14 @@ Step 12: Add files to gitignore that you don't want to be added
 log.txt
 /dir2 (for directories use /)
 
+
+Step 13: Use the concept of branching in Git to avoid direct modifications to master branch
+
+Note: Always commit to master and then create a branch
+
+Create a branch using 
+>>> git branch login (upto you what name you choose)
+
+Step 14: Switch into branch 
+
+>>> git checkout login
