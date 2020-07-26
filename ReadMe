@@ -53,3 +53,7 @@ Step 14: Switch into branch
 Step 15: Switch back to master
 
 >>> git checkout master
+
+Step 16: Merging the branch with the master
+
+>>> git merge login
