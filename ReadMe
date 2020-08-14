@@ -13,6 +13,9 @@ Step 6: git status
 To remove file from staging area:
 git rm --cached index.html
 
+To remove directory from staging area:
+git rm --cached -r  Project 
+
 Make Changes to files and then again git status
 You get modified for file you made changes to 
 
@@ -57,3 +60,13 @@ Step 15: Switch back to master
 Step 16: Merging the branch with the master
 
 >>> git merge login
+
+Step 17: Create a new remote repository on Github
+ Try these commands to push online
+git remote
+
+git init
+git add README.md
+git commit -m "first commit"
+git remote add origin https://github.com/asdupliex4/ModernJS.git
+git push -u origin master
